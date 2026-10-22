@@ -1,0 +1,55 @@
+{
+  "name": "batch_64",
+  "cell": "vanilla",
+  "granularity": "coarse",
+  "params_total": 547724,
+  "params_rnn": 234496,
+  "best_epoch": 16,
+  "val_f1": 0.9279620853080569,
+  "test_f1": 0.9336330296936,
+  "test_precision": 0.9148023646690623,
+  "test_recall": 0.9532552240608769,
+  "test_macro_f1": 0.9314976516616409,
+  "test_token_acc": 0.974381847709234,
+  "test_per_type": {
+    "DESCRIPTEUR": {
+      "precision": 0.8801601200900675,
+      "recall": 0.9309341095527918,
+      "f1": 0.9048353909465021,
+      "support": 3779
+    },
+    "ORGANE": {
+      "precision": 0.9447084233261339,
+      "recall": 0.972,
+      "f1": 0.9581599123767798,
+      "support": 4500
+    }
+  },
+  "seqeval_f1": null,
+  "train_time_s": 485.2966642379761,
+  "epochs_run": 21,
+  "sec_per_epoch": 23.109364963713148,
+  "config": {
+    "data_dir": "data",
+    "granularity": "coarse",
+    "cell": "vanilla",
+    "emb_dim": 100,
+    "hidden": 128,
+    "proj": 64,
+    "layers": 1,
+    "unidirectional": false,
+    "dropout": 0.3,
+    "optimizer": "adam",
+    "lr": 0.001,
+    "batch_size": 64,
+    "epochs": 30,
+    "patience": 5,
+    "clip": 5.0,
+    "init": "default",
+    "forget_bias": 0.0,
+    "seed": 42,
+    "name": "batch_64",
+    "out_dir": "/content/drive/MyDrive/floraner_results",
+    "max_batches": null
+  }
+}

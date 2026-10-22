@@ -1,0 +1,23 @@
+{
+  "data_dir": "data",
+  "granularity": "coarse",
+  "cell": "vanilla",
+  "emb_dim": 100,
+  "hidden": 128,
+  "proj": 64,
+  "layers": 1,
+  "unidirectional": false,
+  "dropout": 0.3,
+  "optimizer": "adam",
+  "lr": 0.001,
+  "batch_size": 32,
+  "epochs": 30,
+  "patience": 5,
+  "clip": 5.0,
+  "init": "xavier",
+  "forget_bias": 0.0,
+  "seed": 42,
+  "name": "init_xavier",
+  "out_dir": "/content/drive/MyDrive/floraner_results",
+  "max_batches": null
+}
