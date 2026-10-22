@@ -1,7 +1,7 @@
 # FloraNER — Named Entity Recognition with LSTM Variants
 
 Lab project — Advanced Natural Language Processing (2026/2027)
-Team: Fahd Chaib · Abdallah Alnajjar · Mohamed Taha El Azizi · Mohamed Houssam El Jabbar
+Team: Fahd Chaib · Abdallah Alnajjar · Mohamed Taha El Azizi · Mohamed Houssam El Jabbar · Ismail Ibnouazzi
 
 We compare a **vanilla LSTM** with two non-vanilla cells, **CIFG** (coupled input-forget gate) and
 **LSTMP** (LSTM with projection), on named entity recognition in French botanical text (FloraNER).
